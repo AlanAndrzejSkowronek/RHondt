@@ -6,13 +6,10 @@ public class RHondtEsqueleto {
     private static int numPartits; // num partidos que tenemos.
     private static int[] votsPartits; // Votos de los partidos.
     private static String[] nomsPartits; // nombres de los partidos.
-
     private static final float percentatgeMinim  = 0.03F; // porcentaje por el cual hay que pasar los partidos.
 
     private static float[][] quoficientsHondt; // tabla con los calculos de los votos (/1, /2, /3, /4...)
-
     private static boolean[] teVotsMinims; // boolean de si x partido tiene los votos mínimos de x porcentaje.
-
     private static int[] esconsAssignats; // Numero final con los diputados asignados.
 
     public static int[] initCalculHondt(
